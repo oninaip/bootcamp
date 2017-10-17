@@ -507,7 +507,7 @@ body{
             top:50%;
              max-width: 800px;
             
-            border: 1px solid red;
+            border: 0px solid red;
                
             nav {
                 
@@ -518,8 +518,8 @@ body{
                    
                 flex-wrap: wrap;
                 justify-content: space-between;
-                border: 1px solid red;
-                 padding: 0;
+                border: 1px solid rgba(0,0,0,1);
+                 
                     max- width:800px;
                     .ico:before{
                         content: attr(data-icon);
@@ -533,9 +533,12 @@ body{
                     }
                     li >a{
                         .href(13px,400);
-                        padding-left:10px;
+                        
                          
                         }
+                    >a:not(:first-child){ 
+                padding-left:10px;
+            }
                     }
                    
                         
