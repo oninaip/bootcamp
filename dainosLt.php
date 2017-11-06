@@ -35,7 +35,7 @@
                     <option value ="<?php echo clearAttribute($array['tekstas']); ?>" data-value="<?php echo clearAttribute($array['akkordai']); ?> " data-url="<?php echo clearAttribute($array['youtube']); ?>">  <?php echo $array['pavadinimas']; ?> </option>
 
                     <?php echo $array['tekstas']; }; ?>
-
+  
                   </select>
                 </form>
                <div class="youtube" ><a href="" target="_blank" > </a></div>

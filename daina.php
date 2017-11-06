@@ -17,7 +17,7 @@
             <span class="papild">
                 <a href="addsong.php"  class ="dobav" data-icon="&#xea0a;"></a>
             </span>
-            </h2>
+            </h2> 
         </div>
         <div class="pesni"> 
                 <a><div class="lt"><img src="image/lt.png"></div></a>

@@ -115,8 +115,6 @@
                                 </p><p>Mes tikime į antrąjį Kristaus atėjimą su Jo Bažnyčia ir Dievo karalystės būvimą Danguje ir Žemėje (Hebr.9, 28; Ap.d. 1, 10-11; Apr. 1, 7; Fil.3, 20-21; 1Fes.4, 15-17; Kol.3, 4).
                                 </p><p>Mes tikime į teisingą Dievo Teismą. Jis atlygins kiekvienam pagal jo darbus, amžinu išteisinimu arba amžinu pasmerkimu (Apr.22, 10-15; Apr.20, 10-15; Rom. 2, 4-16).</p>
 		
-
-
                             </div>
                         </div>
                      </div>

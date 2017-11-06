@@ -46,7 +46,6 @@
 
                     <label> <input type="submit" value="Išsaugoti" class="issaugoti" >  </label>
 
-
                 </form>
             </div>
 
