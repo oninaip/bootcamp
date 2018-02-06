@@ -8,7 +8,7 @@ if (isset($_SESSION['access']) && $_SESSION['access'] === true){
 
 ?>
     
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html lang="lt">
 <head>
     <meta charset="utf-8"> <!-- utf-8 -->
@@ -45,27 +45,21 @@ if (isset($_SESSION['access']) && $_SESSION['access'] === true){
             <div class="href2"><input type="submit" class="href3" value="Įeiti"></div>
                           
                 <?php
-  if(!empty($_POST['pass']) && $_POST['pass']== "123" && $_POST['login'] == "admin"){
-     
-      $_SESSION['access']=true;
-      header("Location: page1.php") ;
-    }
-                elseif(!empty($_POST['pass'])){
-                    ?> <script type="text/javascript"> 
-                
-                $(document).ready(function(){
-                    
-                    $('.ieiti').css("display","block");
-                    $('.section-a-c, .href ').css("display","none");
-                    $('.error').css('display','block');
-                    $('.href3').css('top','120px');
-                });
-                 </script><?php
-                }; 
-    ?>
-                
-                
-                
+  			if(!empty($_POST['pass']) && $_POST['pass']== "123" && $_POST['login'] == "admin"){
+				 $_SESSION['access']=true;
+				 header("Location: page1.php") ;
+    			}
+                	elseif(!empty($_POST['pass'])){
+                    		?> <script type="text/javascript"> 
+                		$(document).ready(function(){
+					    $('.ieiti').css("display","block");
+					    $('.section-a-c, .href ').css("display","none");
+					    $('.error').css('display','block');
+					    $('.href3').css('top','120px');
+					});
+                 			</script><?php
+                			}; 
+    					?>
             </form>
             
             </div>
